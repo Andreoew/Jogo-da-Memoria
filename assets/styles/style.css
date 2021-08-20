@@ -42,19 +42,21 @@ h6 {
     align-items: center;
     margin-left: 10px;
     
+    
 
 }
 
 .footer {
+    
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 1px;
+    
 }
 
 .card {
-    width: 85px;
-    height: 85px;
+    width: 90px;
+    height: 90px;
     position: relative;
     -webkit-transform-style: preserve-3d;
     -webkit-transition: transform .5s;
