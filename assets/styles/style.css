@@ -53,8 +53,8 @@ h6 {
 }
 
 .card {
-    width: 90px;
-    height: 90px;
+    width: 85px;
+    height: 85px;
     position: relative;
     -webkit-transform-style: preserve-3d;
     -webkit-transition: transform .5s;
