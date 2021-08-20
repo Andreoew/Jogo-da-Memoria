@@ -103,9 +103,9 @@ function setClock() {
     let minutesTag = document.getElementById("minutes");
 
     if (game.segundos < 10) {
-        secondsTag.innerText = `:0${game.segundos}`;
+        secondsTag.innerText = `: 0${game.segundos}`;
     } else {
-        secondsTag.innerText = `:${game.segundos}`;
+        secondsTag.innerText = `: ${game.segundos}`;
     }
 
     if (game.minutos < 10) {
@@ -118,10 +118,10 @@ function setClock() {
 
 function setattempts() {
     let attempts = document.getElementById("tpm");
-  
-    if(game.attempts < 10) {
+
+    if (game.attempts < 10) {
         attempts.innerHTML = `0${game.attempts}`;
     } else {
         attempts.innerHTML = `${game.attempts}`;
     }
-  }
+}

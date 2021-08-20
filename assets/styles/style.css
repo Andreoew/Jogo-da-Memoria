@@ -23,8 +23,8 @@ header {
 
 
 .card {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     position: relative;
     -webkit-transform-style: preserve-3d;
     -webkit-transition: transform .5s;
